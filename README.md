@@ -5,7 +5,7 @@ GOAP for AI means that the AI has a list of __goals__. A __goal__ is reached whe
 ![This is an image](image_2023-01-11_154226193.png)
 
 ## Implementation
-I implemented GOAP using struct for my Goals and Actions, first i wanted to use a base class for goals and actions. But i ran into an error that made me try structs instead of classes, in the end the error had nothing to do with the classes, but i did't want to rewrite the code.
+I implemented GOAP using struct for my Goals and Actions, first i wanted to use a base class for goals and actions. But i ran into an error that made me try structs instead of classes, in the end the error had nothing to do with the classes, but i did't want to rewrite the code. The __Worldstate__ are checked with a function to see if they are fullfillled.
 ###### Goal
 ```
 struct Goal
